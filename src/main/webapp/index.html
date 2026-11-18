@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Registration App</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<div class="container">
+
+    <div class="card">
+
+        <h1>Welcome to Our App!!</h1>
+        <p>Create your account to continue</p>
+
+        <form method="post" action="./Register">
+
+            <div class="input-group">
+                <label>User Name</label>
+                <input type="text" name="uname" placeholder="Enter your name" required>
+            </div>
+
+            <div class="input-group">
+                <label>Email Address</label>
+                <input type="email" name="email" placeholder="Enter your email" required>
+            </div>
+
+            <div class="input-group">
+                <label>Password</label>
+                <input type="password" name="password" placeholder="Enter your password" required>
+            </div>
+
+            <div class="input-group">
+                <label>City</label>
+                <input type="text" name="ucity" placeholder="Enter your city" required>
+            </div>
+
+            <button type="submit">Sign Up</button>
+
+        </form>
+        
+        <div class="divider">
+    <span>OR</span>
+</div>
+
+<div class="login-section">
+    <p>Already registered?</p>
+    <a href="login.html" class="login-btn">Login</a>
+</div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
